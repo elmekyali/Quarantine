@@ -1,9 +1,6 @@
 package com.nespresso.sofa.interview.hospital;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -19,10 +16,20 @@ public class Quarantine {
             patient.setPatientNumber(1);
             return patient;
         }).collect(Collectors.toList());
+
+        Patient deadPatient = new Patient().setFirstState("X");
+        deadPatient.setPatientNumber(0);
+        patients.add(deadPatient);
+
     }
 
     public String report() {
-        return "";
+        String out = "";
+        Set<Patient> uniqueSet = new HashSet<Patient>(patients);
+        for (Patient temp : uniqueSet) {
+            out += temp + ":" + Collections.frequency(patients, temp) + " ";
+        }
+        return out;
     }
 
     public void wait40Days() {

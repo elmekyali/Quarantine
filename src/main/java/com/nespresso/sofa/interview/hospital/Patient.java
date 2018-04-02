@@ -13,7 +13,7 @@ public class Patient {
         this.patientState = patientState;
     }
 
-    public void setFirstState (String type) {
+    public Patient setFirstState (String type) {
 
         switch (type)
         {
@@ -24,6 +24,7 @@ public class Patient {
             case "X" : patientState = new Dead();          break;
             default  : patientState = null;
         }
+        return this;
     }
 
     public int getPatientNumber() {
