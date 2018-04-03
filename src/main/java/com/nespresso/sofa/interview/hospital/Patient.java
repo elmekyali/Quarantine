@@ -2,8 +2,11 @@ package com.nespresso.sofa.interview.hospital;
 
 public class Patient {
 
-    private State patientState;
-    private int   patientNumber;
+    private State   patientState;
+    private boolean isUsedInsulin      = false;
+    private boolean isUsedAntibiotic   = false;
+    private boolean isUsedAspirin      = false;
+    private boolean isUsedParacetamol  = false;
 
     public State getPatientState() {
         return patientState;
@@ -27,11 +30,40 @@ public class Patient {
         return this;
     }
 
-    public int getPatientNumber() {
-        return patientNumber;
+    @Override
+    public String toString() {
+        return patientState.toString();
     }
 
-    public void setPatientNumber(int patientNumber) {
-        this.patientNumber = patientNumber;
+    public boolean isUsedInsulin() {
+        return isUsedInsulin;
+    }
+
+    public void setUsedInsulin(boolean usedInsulin) {
+        isUsedInsulin = usedInsulin;
+    }
+
+    public boolean isUsedAntibiotic() {
+        return isUsedAntibiotic;
+    }
+
+    public void setUsedAntibiotic(boolean usedAntibiotic) {
+        isUsedAntibiotic = usedAntibiotic;
+    }
+
+    public boolean isUsedAspirin() {
+        return isUsedAspirin;
+    }
+
+    public void setUsedAspirin(boolean usedAspirin) {
+        isUsedAspirin = usedAspirin;
+    }
+
+    public boolean isUsedParacetamol() {
+        return isUsedParacetamol;
+    }
+
+    public void setUsedParacetamol(boolean usedParacetamol) {
+        isUsedParacetamol = usedParacetamol;
     }
 }

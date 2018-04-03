@@ -2,10 +2,7 @@ package com.nespresso.sofa.interview.hospital;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.Before;
 import org.junit.Test;
-
-import com.nespresso.sofa.interview.hospital.Quarantine;
 
 public class QuarantineTest {
 
