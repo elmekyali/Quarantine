@@ -1,8 +1,11 @@
 package com.nespresso.sofa.interview.hospital;
 
+import java.util.function.UnaryOperator;
+
 public class Patient {
 
     private State   patientState;
+
     private boolean isUsingInsulin      = false;
     private boolean isUsingAntibiotic   = false;
     private boolean isUsingAspirin      = false;
@@ -27,6 +30,31 @@ public class Patient {
             case "X" : patientState = new Dead();          break;
             default  : patientState = null;
         }
+        return this;
+    }
+
+   public Patient wait40Days() {
+        patientState = patientState.wait40Days(this);
+        return this;
+   }
+
+    public Patient aspirin() {
+        patientState = patientState.aspirin(this);
+        return this;
+    }
+
+    public Patient antibiotic() {
+        patientState = patientState.antibiotic(this);
+        return this;
+    }
+
+    public Patient insulin() {
+        patientState = patientState.insulin(this);
+        return this;
+    }
+
+    public Patient paracetamol() {
+        patientState = patientState.paracetamol(this);
         return this;
     }
 
@@ -66,4 +94,5 @@ public class Patient {
     public void setUsingParacetamol(boolean usingParacetamol) {
         isUsingParacetamol = usingParacetamol;
     }
+
 }

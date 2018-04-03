@@ -1,6 +1,7 @@
 package com.nespresso.sofa.interview.hospital;
 
 import java.util.*;
+import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 
 public class Quarantine {
@@ -30,38 +31,27 @@ public class Quarantine {
         }).collect(Collectors.joining(" "));
     }
 
+    public void updatePatients(UnaryOperator<Patient> patientHealthStatusUpdater) {
+        patients.forEach(patientHealthStatusUpdater::apply);
+    }
+
     public void wait40Days() {
-        for (Patient patient : patients) {
-            State newState = patient.getPatientState().wait40Days(patient);
-            patient.setPatientState(newState);
-        }
+        updatePatients(Patient::wait40Days);
     }
 
     public void aspirin() {
-        for (Patient patient : patients) {
-            State newState = patient.getPatientState().aspirin(patient);
-            patient.setPatientState(newState);
-        }
+        updatePatients(Patient::aspirin);
     }
 
     public void antibiotic() {
-        for (Patient patient : patients) {
-            State newState = patient.getPatientState().antibiotic(patient);
-            patient.setPatientState(newState);
-        }
+        updatePatients(Patient::antibiotic);
     }
 
     public void insulin() {
-        for (Patient patient : patients) {
-            State newState = patient.getPatientState().insulin(patient);
-            patient.setPatientState(newState);
-        }
+        updatePatients(Patient::insulin);
     }
 
     public void paracetamol() {
-        for (Patient patient : patients) {
-            State newState = patient.getPatientState().paracetamol(patient);
-            patient.setPatientState(newState);
-        }
+        updatePatients(Patient::paracetamol);
     }
 }
