@@ -12,8 +12,8 @@ public class Tuberculosis extends State {
 
     @Override
     protected State aspirin(Patient patient) {
-        patient.setUsedAspirin(true);
-        if(patient.isUsedParacetamol()) return new Dead();
+        patient.setUsingAspirin(true);
+        if(patient.isUsingParacetamol()) return new Dead();
         return this;
     }
 
@@ -29,8 +29,8 @@ public class Tuberculosis extends State {
 
     @Override
     protected State paracetamol(Patient patient) {
-        patient.setUsedParacetamol(true);
-        if(patient.isUsedAspirin()) return new Dead();
+        patient.setUsingParacetamol(true);
+        if(patient.isUsingAspirin()) return new Dead();
         return this;
     }
 }

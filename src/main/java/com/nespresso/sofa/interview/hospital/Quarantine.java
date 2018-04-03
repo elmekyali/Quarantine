@@ -24,6 +24,7 @@ public class Quarantine {
             String patientState = patient.toString();
             patientCount.put(patientState , patientCount.get(patientState) + 1);
         }
+
         return patientCount.entrySet().stream().map(x -> {
             return x.getKey() + ":" + x.getValue();
         }).collect(Collectors.joining(" "));

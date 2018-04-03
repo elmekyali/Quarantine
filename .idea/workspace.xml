@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1a8af5c3-4166-400e-916e-3597c9362cad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Diabetes.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Diabetes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Fever.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Fever.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Healthy.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Healthy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Patient.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Patient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Quarantine.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Quarantine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Tuberculosis.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Tuberculosis.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,12 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuarantineTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuarantineTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/nespresso/sofa/interview/hospital/QuarantineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1306">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1449">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,17 +49,17 @@
       <file leaf-file-name="Tuberculosis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Tuberculosis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            <state relative-caret-position="338">
+              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="e#116#117#0" expanded="true" />
                 <element signature="e#142#143#0" expanded="true" />
                 <element signature="e#204#205#0" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,13 +68,13 @@
       <file leaf-file-name="Diabetes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Diabetes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="787">
+              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding>
                 <element signature="e#108#109#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +83,8 @@
       <file leaf-file-name="Fever.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Fever.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="644">
+              <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding>
                 <element signature="e#102#103#0" expanded="true" />
                 <element signature="e#128#129#0" expanded="true" />
@@ -91,8 +98,8 @@
       <file leaf-file-name="Healthy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Healthy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+            <state relative-caret-position="437">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#106#107#0" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
@@ -101,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quarantine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Quarantine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Quarantine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="322">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,27 +123,27 @@
       <file leaf-file-name="Patient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="212">
+              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding>
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
-                <element signature="e#1271#1272#0" expanded="true" />
-                <element signature="e#1310#1311#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1494#1495#0" expanded="true" />
-                <element signature="e#1549#1550#0" expanded="true" />
-                <element signature="e#1592#1593#0" expanded="true" />
-                <element signature="e#1634#1635#0" expanded="true" />
-                <element signature="e#1674#1675#0" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1788#1789#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1569#1570#0" expanded="true" />
+                <element signature="e#1614#1615#0" expanded="true" />
+                <element signature="e#1657#1658#0" expanded="true" />
+                <element signature="e#1698#1699#0" expanded="true" />
+                <element signature="e#1763#1764#0" expanded="true" />
+                <element signature="e#1816#1817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,11 +180,13 @@
       <find>patientsTypeWithNumber</find>
       <find>isSafe</find>
       <find>patientsCount</find>
+      <find>Used</find>
     </findStrings>
     <replaceStrings>
       <replace>patientsCount</replace>
       <replace>isSafeWithInsulin</replace>
       <replace>patientCount</replace>
+      <replace>Using</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -193,12 +202,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/PatientType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Dead.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nespresso/sofa/interview/hospital/QuarantineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Tuberculosis.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Diabetes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Healthy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Dead.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Fever.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nespresso/sofa/interview/hospital/QuarantineTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Healthy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Patient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Quarantine.java" />
       </list>
@@ -345,31 +354,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="QuarantineTest.antibioticPlusInsulin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.nespresso.sofa.interview.hospital.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Quarantine" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.nespresso.sofa.interview.hospital" />
-      <option name="MAIN_CLASS_NAME" value="com.nespresso.sofa.interview.hospital.QuarantineTest" />
-      <option name="METHOD_NAME" value="antibioticPlusInsulin" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="QuarantineTest.aspirin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -433,6 +417,31 @@
       <option name="PACKAGE_NAME" value="com.nespresso.sofa.interview.hospital" />
       <option name="MAIN_CLASS_NAME" value="com.nespresso.sofa.interview.hospital.QuarantineTest" />
       <option name="METHOD_NAME" value="paracetamolAndAspirin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="QuarantineTest.withoutTreatmentNorTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.nespresso.sofa.interview.hospital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Quarantine" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.nespresso.sofa.interview.hospital" />
+      <option name="MAIN_CLASS_NAME" value="com.nespresso.sofa.interview.hospital.QuarantineTest" />
+      <option name="METHOD_NAME" value="withoutTreatmentNorTime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -527,19 +536,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.QuarantineTest.antibioticPlusInsulin" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.QuarantineTest.paracetamol" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.QuarantineTest.paracetamolAndAspirin" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.QuarantineTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.QuarantineTest.aspirin" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.QuarantineTest.paracetamol" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.QuarantineTest.paracetamolAndAspirin" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.QuarantineTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.QuarantineTest.aspirin" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.QuarantineTest.withoutTreatmentNorTime" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.QuarantineTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.QuarantineTest.paracetamol" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.QuarantineTest.paracetamolAndAspirin" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.QuarantineTest.aspirin" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.QuarantineTest.antibioticPlusInsulin" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.QuarantineTest.withoutTreatmentNorTime" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.QuarantineTest.paracetamol" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.QuarantineTest.paracetamolAndAspirin" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.QuarantineTest.aspirin" />
       </list>
     </recent_temporary>
   </component>
@@ -554,7 +563,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522680563732</updated>
       <workItem from="1522680566417" duration="6914000" />
-      <workItem from="1522743075308" duration="12801000" />
+      <workItem from="1522743075308" duration="13515000" />
     </task>
     <task id="LOCAL-00001" summary="Last commit">
       <created>1522761544002</created>
@@ -563,43 +572,50 @@
       <option name="project" value="LOCAL" />
       <updated>1522761544003</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Last commit">
+      <created>1522762355494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522762355494</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuarantineTest - 2018.04.03 at 12h 32m 01s.xml">
-      <configuration name="QuarantineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuarantineTest - 2018.04.03 at 12h 34m 10s.xml">
-      <configuration name="QuarantineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuarantineTest - 2018.04.03 at 14h 21m 19s.xml">
-      <configuration name="QuarantineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuarantineTest - 2018.04.03 at 14h 21m 29s.xml">
-      <configuration name="QuarantineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuarantineTest - 2018.04.03 at 14h 21m 38s.xml">
-      <configuration name="QuarantineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuarantineTest - 2018.04.03 at 14h 30m 12s.xml">
-      <configuration name="QuarantineTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QuarantineTest - 2018.04.03 at 14h 30m 40s.xml">
       <configuration name="QuarantineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuarantineTest_paracetamol - 2018.04.03 at 12h 34m 04s.xml">
-      <configuration name="QuarantineTest.paracetamol" configurationId="JUnit" />
+    <history-entry file="QuarantineTest - 2018.04.03 at 14h 39m 20s.xml">
+      <configuration name="QuarantineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuarantineTest_paracetamol - 2018.04.03 at 14h 21m 33s.xml">
-      <configuration name="QuarantineTest.paracetamol" configurationId="JUnit" />
+    <history-entry file="QuarantineTest - 2018.04.03 at 14h 41m 20s.xml">
+      <configuration name="QuarantineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuarantineTest - 2018.04.03 at 14h 44m 16s.xml">
+      <configuration name="QuarantineTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QuarantineTest_paracetamolAndAspirin - 2018.04.03 at 14h 30m 33s.xml">
       <configuration name="QuarantineTest.paracetamolAndAspirin" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QuarantineTest_withoutTreatmentNorTime - 2018.04.03 at 14h 40m 36s.xml">
+      <configuration name="QuarantineTest.withoutTreatmentNorTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuarantineTest_withoutTreatmentNorTime - 2018.04.03 at 14h 41m 13s.xml">
+      <configuration name="QuarantineTest.withoutTreatmentNorTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuarantineTest_withoutTreatmentNorTime - 2018.04.03 at 14h 41m 24s.xml">
+      <configuration name="QuarantineTest.withoutTreatmentNorTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuarantineTest_withoutTreatmentNorTime - 2018.04.03 at 14h 42m 43s.xml">
+      <configuration name="QuarantineTest.withoutTreatmentNorTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuarantineTest_withoutTreatmentNorTime - 2018.04.03 at 14h 43m 34s.xml">
+      <configuration name="QuarantineTest.withoutTreatmentNorTime" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19715000" />
+    <option name="totallyTimeSpent" value="20429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -614,7 +630,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -708,6 +724,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -735,10 +752,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Healthy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        <state relative-caret-position="437">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#106#107#0" expanded="true" />
             <element signature="e#132#133#0" expanded="true" />
@@ -746,28 +776,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Diabetes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Fever.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="644">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding>
             <element signature="e#102#103#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Diabetes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Tuberculosis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -783,75 +830,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Tuberculosis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="212">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1674#1675#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Quarantine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/nespresso/sofa/interview/hospital/QuarantineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1306">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/sofa/interview/hospital/Quarantine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="1449">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -8,21 +8,21 @@ public class Diabetes extends State{
 
     @Override
     public State wait40Days(Patient patient) {
-        if (patient.isUsedInsulin()) return this;
+        if (patient.isUsingInsulin()) return this;
         return new Dead();
     }
 
     @Override
     protected State aspirin(Patient patient) {
-        patient.setUsedAspirin(true);
-        if(patient.isUsedParacetamol()) return new Dead();
+        patient.setUsingAspirin(true);
+        if(patient.isUsingParacetamol()) return new Dead();
         return this;
     }
 
     @Override
     protected State paracetamol(Patient patient) {
-        patient.setUsedParacetamol(true);
-        if(patient.isUsedAspirin()) return new Dead();
+        patient.setUsingParacetamol(true);
+        if(patient.isUsingAspirin()) return new Dead();
         return this;
     }
 
@@ -33,7 +33,7 @@ public class Diabetes extends State{
 
     @Override
     protected State insulin(Patient patient) {
-        patient.setUsedInsulin(true);
+        patient.setUsingInsulin(true);
         return this;
     }
 }

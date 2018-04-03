@@ -3,10 +3,10 @@ package com.nespresso.sofa.interview.hospital;
 public class Patient {
 
     private State   patientState;
-    private boolean isUsedInsulin      = false;
-    private boolean isUsedAntibiotic   = false;
-    private boolean isUsedAspirin      = false;
-    private boolean isUsedParacetamol  = false;
+    private boolean isUsingInsulin      = false;
+    private boolean isUsingAntibiotic   = false;
+    private boolean isUsingAspirin      = false;
+    private boolean isUsingParacetamol  = false;
 
     public State getPatientState() {
         return patientState;
@@ -35,35 +35,35 @@ public class Patient {
         return patientState.toString();
     }
 
-    public boolean isUsedInsulin() {
-        return isUsedInsulin;
+    public boolean isUsingInsulin() {
+        return isUsingInsulin;
     }
 
-    public void setUsedInsulin(boolean usedInsulin) {
-        isUsedInsulin = usedInsulin;
+    public void setUsingInsulin(boolean usingInsulin) {
+        isUsingInsulin = usingInsulin;
     }
 
-    public boolean isUsedAntibiotic() {
-        return isUsedAntibiotic;
+    public boolean isUsingAntibiotic() {
+        return isUsingAntibiotic;
     }
 
-    public void setUsedAntibiotic(boolean usedAntibiotic) {
-        isUsedAntibiotic = usedAntibiotic;
+    public void setUsingAntibiotic(boolean usingAntibiotic) {
+        isUsingAntibiotic = usingAntibiotic;
     }
 
-    public boolean isUsedAspirin() {
-        return isUsedAspirin;
+    public boolean isUsingAspirin() {
+        return isUsingAspirin;
     }
 
-    public void setUsedAspirin(boolean usedAspirin) {
-        isUsedAspirin = usedAspirin;
+    public void setUsingAspirin(boolean usingAspirin) {
+        isUsingAspirin = usingAspirin;
     }
 
-    public boolean isUsedParacetamol() {
-        return isUsedParacetamol;
+    public boolean isUsingParacetamol() {
+        return isUsingParacetamol;
     }
 
-    public void setUsedParacetamol(boolean usedParacetamol) {
-        isUsedParacetamol = usedParacetamol;
+    public void setUsingParacetamol(boolean usingParacetamol) {
+        isUsingParacetamol = usingParacetamol;
     }
 }
