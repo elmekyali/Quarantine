@@ -6,6 +6,7 @@ public class Patient {
 
     private State   patientState;
 
+    private boolean isWait40Days        = false;
     private boolean isUsingInsulin      = false;
     private boolean isUsingAntibiotic   = false;
     private boolean isUsingAspirin      = false;
@@ -34,27 +35,32 @@ public class Patient {
     }
 
    public Patient wait40Days() {
-        patientState = patientState.wait40Days(this);
+       isWait40Days = true ;
+       patientState.updateState(this);
         return this;
    }
 
     public Patient aspirin() {
-        patientState = patientState.aspirin(this);
+        isUsingAspirin = true ;
+        patientState.updateState(this);
         return this;
     }
 
     public Patient antibiotic() {
-        patientState = patientState.antibiotic(this);
+        isUsingAntibiotic = true;
+        patientState.updateState(this);
         return this;
     }
 
     public Patient insulin() {
-        patientState = patientState.insulin(this);
+        isUsingInsulin = true;
+        patientState.updateState(this);
         return this;
     }
 
     public Patient paracetamol() {
-        patientState = patientState.paracetamol(this);
+        isUsingParacetamol = true ;
+        patientState.updateState(this);
         return this;
     }
 
@@ -95,4 +101,11 @@ public class Patient {
         isUsingParacetamol = usingParacetamol;
     }
 
+    public boolean isWait40Days() {
+        return isWait40Days;
+    }
+
+    public void setWait40Days(boolean wait40Days) {
+        isWait40Days = wait40Days;
+    }
 }

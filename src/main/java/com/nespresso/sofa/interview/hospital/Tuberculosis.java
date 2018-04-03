@@ -6,31 +6,14 @@ public class Tuberculosis extends State {
     }
 
     @Override
-    public State wait40Days(Patient patient) {
-        return this;
+    protected void updateState(Patient patient) {
+        if (patient.isUsingParacetamol() && patient.isUsingAspirin())
+            patient.setPatientState(new Dead());
+        else if (patient.isUsingAntibiotic()) {
+            patient.setPatientState(new Healthy());
+            patient.setUsingAntibiotic(false);
+        }
     }
 
-    @Override
-    protected State aspirin(Patient patient) {
-        patient.setUsingAspirin(true);
-        if(patient.isUsingParacetamol()) return new Dead();
-        return this;
-    }
 
-    @Override
-    protected State antibiotic(Patient patient) {
-        return new Healthy();
-    }
-
-    @Override
-    protected State insulin(Patient patient) {
-        return this;
-    }
-
-    @Override
-    protected State paracetamol(Patient patient) {
-        patient.setUsingParacetamol(true);
-        if(patient.isUsingAspirin()) return new Dead();
-        return this;
-    }
 }

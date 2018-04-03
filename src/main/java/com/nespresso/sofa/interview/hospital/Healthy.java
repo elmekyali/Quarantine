@@ -6,34 +6,12 @@ public class Healthy extends State {
     }
 
     @Override
-    public State wait40Days(Patient patient) {
-        if(patient.isUsingInsulin() && patient.isUsingAntibiotic()) return new Fever();
-        return this;
+    protected void updateState(Patient patient) {
+        if (patient.isUsingParacetamol() && patient.isUsingAspirin())
+            patient.setPatientState(new Dead());
+        else if (patient.isUsingInsulin() && patient.isUsingAntibiotic()) {
+            patient.setPatientState(new Fever());
+        }
     }
 
-    @Override
-    protected State aspirin(Patient patient) {
-        patient.setUsingAspirin(true);
-        if(patient.isUsingParacetamol()) return new Dead();
-        return this;
-    }
-
-    @Override
-    protected State paracetamol(Patient patient) {
-        patient.setUsingParacetamol(true);
-        if(patient.isUsingAspirin()) return new Dead();
-        return this;
-    }
-
-    @Override
-    protected State antibiotic(Patient patient) {
-        patient.setUsingAntibiotic(true);
-        return this;
-    }
-
-    @Override
-    protected State insulin(Patient patient) {
-        patient.setUsingInsulin(true);
-        return this;
-    }
 }
